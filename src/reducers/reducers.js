@@ -17,10 +17,21 @@ const initialState = {
   ]
 };
 
-const reducer = (initialState, action) => {
+console.log(initialState);
+
+const reducer = (state = initialState, action) => {
   switch(action.type) {
-    
+    case ADD_FEATURE:
+      return{
+
+      };
+      case: REMOVE_FEATURE:
+      return{
+
+      }
+    default:
+      return: state;
   }
 }
 
-export default;
+;
